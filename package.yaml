@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - hlambdaHello
+    - aeson
+    - serverless-haskell
 
 tests:
   hlambdaHello-test:
